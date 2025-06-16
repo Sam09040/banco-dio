@@ -31,7 +31,7 @@ public class Banco {
     }
 
     public void listarContas() {
-        System.out.println("=== Contas do banco " + nome + " ===");
+        System.out.println("=== Contas do " + nome + " ===");
         if (contas.isEmpty()) {
             System.out.println("Nenhuma conta cadastrada.");
         } else {
